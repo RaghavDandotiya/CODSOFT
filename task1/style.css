@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+    height: 2.5rem;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.431);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    z-index: 20;
+    position: fixed;
+}
+
+.nav-buttons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    >a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
+
+.part1{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3JqY2xsanB6amZieWE3NG50anBwdHc0b294ejYyNnVsc3A0OWVtOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lRpvmChZEteVIFgQtV/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 0% 0% 40% 40%;
+}
+
+.centerbox{
+    height: 50%;
+    width: 30%;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.211);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >h1{
+        margin-bottom: 1rem;
+        color: rgb(255, 255, 255);
+    }
+    >p{
+        color: rgb(203, 203, 203);
+    }
+    >button{
+        height: 2rem;
+        width: 7rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        border:none;
+        outline:none;
+        font-family: 'Rubik', sans-serif;
+        letter-spacing: 0.3px;
+        transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        border-radius: 0.2rem;
+        &:hover{
+            background-color: rgb(4, 85, 172);
+            color: aliceblue;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.part2{
+    height: 135%;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/d4/64/bb/d464bb3388cd439e1abda827b7f847a9.jpg');
+    margin-top: -25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cr7info{
+    height: 40%;
+    color: aliceblue;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 58%;
+}
+
+#p1{
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Iron-Man-Iron-God.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+}
+
+#p2{
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/Iron-Mans-actual-Godbuster-armor.jpg?q=50&fit=crop&w=750&dpr=1.5');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2rem;
+}
+
+#p3{
+    height: 100%;
+    background-image: url('https://qph.cf2.quoracdn.net/main-qimg-0c29ec8fe2638a7b71cad96fcd1f0de2-lq');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+}
+
+.footer{
+    height: 40%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elements{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.components{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
